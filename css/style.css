@@ -1,0 +1,501 @@
+*::selection {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+.fontFamily_Poppins {
+  font-family: poppins;
+}
+@font-face {
+  font-family: "sourceSansPro";
+  src: url(../fonts/SourceSansPro-Regular.otf);
+}
+.fontFamily_SourceSansPro {
+  font-family: sourceSansPro;
+}
+html {
+  scroll-behavior: smooth;
+}
+.site-logo {
+  width: 90px;
+}
+.borders {
+  position: relative !important;
+}
+.borders::before {
+  content: "";
+  position: absolute;
+  top: -30%;
+  left: -5%;
+  bottom: 0;
+  width: 1px;
+  background-color: #6c757d;
+  height: 91px;
+}
+.hovering1 {
+  transition: all 0.5s;
+}
+.hovering1:hover i {
+  color: #616262 !important;
+}
+.poppins-font {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+.btnc {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  height: 50px;
+  width: 50px;
+}
+.btn-pos {
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+.layer1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.btn-hov:hover .layer1 {
+  transform: translatex(0);
+}
+.btn-hov:hover i {
+  color: black;
+}
+nav div div ul li a {
+  color: white !important;
+}
+nav div div div ul li a i {
+  color: white !important;
+}
+.logo2 {
+  display: none !important;
+}
+.header-text {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-text h1 {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 100px;
+  animation-name: faded1;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.header-text h4 {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  animation-name: faded1;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+@keyframes faded1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.hovering2
+{
+  position: relative;
+  transition: all 0.3s;
+}
+.hovering2:hover {
+  transform: translateY(-10%);
+}
+.btnOutlinesDarks {
+  --bs-btn-color: #212529;
+  --bs-btn-border-color: rgba(128, 128, 128, 0.3);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #212529;
+  --bs-btn-hover-border-color: #212529;
+  --bs-btn-focus-shadow-rgb: 33, 37, 41;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #212529;
+  --bs-btn-active-border-color: #212529;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #212529;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #212529;
+  --bs-gradient: none;
+  border-radius: 0 !important;
+}
+.textChang {
+  width: 100px;
+  height: 30px;
+  overflow: hidden;
+}
+.textChang::before {
+  content: "Apps";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  animation: changing 6s linear infinite alternate;
+}
+.textChang::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transform: translateX(100%);
+  background-color: white;
+  border-left: 2px solid blue;
+  animation: cursor 0.5s linear infinite alternate,
+    eraser 1s linear infinite alternate;
+}
+@keyframes eraser {
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+@keyframes changing {
+  0% {
+    content: "Apps";
+  }
+  33.33% {
+    content: "Websites";
+  }
+  66.67% {
+    content: "Softwares";
+  }
+}
+.char-op {
+  font-size: 60px;
+  font-weight: 900;
+  position: absolute;
+  top: -37%;
+  left: -5%;
+}
+.layer2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: all 1s;
+}
+.hovering3:hover .layer2 {
+  transform: translateY(0);
+}
+.fsmalsize {
+  font-size: 13px;
+}
+.char-op2 {
+  font-size: 70px;
+  font-weight: 900;
+  position: absolute;
+  top: -80%;
+  left: -30%;
+}
+.fbigsize {
+  font-size: 38px;
+}
+.char-op3 {
+  font-size: 70px;
+  font-weight: 900;
+  position: absolute;
+  top: -50%;
+  left: -30%;
+}
+.btn-primarys {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #00c3da;
+  --bs-btn-border-color: #00c3da;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #00c3da;
+  --bs-btn-hover-border-color: #00c3da;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #00c3da;
+  --bs-btn-active-border-color: #00c3da;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #00c3da;
+  --bs-btn-disabled-border-color: #00c3da;
+}
+.priceNum {
+  font-size: 55px;
+}
+.hovering4 {
+  transition: all 0.5s;
+}
+.hovering4:hover {
+  box-shadow: 0px 0px 10px 1px grey !important;
+}
+.testPic {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 44%;
+  top: -18%;
+  z-index: 3;
+}
+.but-hov1 i,
+.but-hov2 i {
+  color: #0f1035 !important;
+}
+.but-hov1,
+.but-hov2 {
+  color: #0f1035 !important;
+}
+.but-hov1:hover {
+  transform: translateX(-10%);
+  transition: all 1s;
+}
+.but-hov1:hover i {
+  color: #3ed0e1 !important;
+}
+.but-hov2:hover {
+  transform: translateX(10%);
+  transition: all 1s;
+}
+.but-hov2:hover i {
+  color: #3ed0e1 !important;
+}
+.indic-box {
+  position: absolute;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+.indic-box button {
+  background-color: #00c3da !important;
+}
+
+@media (max-width: 768px) {
+  .borders::before {
+    display: none;
+  }
+  nav {
+    background-color: white !important;
+  }
+  nav div div ul li a {
+    color: white !important;
+  }
+  nav div div div ul li a i {
+    color: white !important;
+  }
+  .logo1 {
+    display: none !important;
+  }
+  .logo2 {
+    display: block !important;
+  }
+  .header-text h1 {
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    animation-name: faded1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .header-text h4 {
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    animation-name: faded1;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .testPic {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 30%;
+    top: -10%;
+    z-index: 3;
+  }
+  .flexs
+  {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .flexs .fp
+  {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .flexs .fp button , .flexs .fp input
+  {
+    width: 100% !important;
+  }
+  .flexs .fp iframe
+  {
+    position: relative !important;
+    left: 15% !important;
+    width: 70vw !important;
+  }
+  .textChangPos
+  {
+    position: static;
+  }
+}
+
+@media (max-width: 576px) 
+{
+  .borders::before {
+    display: none;
+  }
+  nav {
+    background-color: white !important;
+  }
+  nav div div ul li a {
+    color: white !important;
+  }
+  nav div div div ul li a i {
+    color: white !important;
+  }
+  .logo1 {
+    display: none !important;
+  }
+  .logo2 {
+    display: block !important;
+  }
+  .header-text h1 {
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    animation-name: faded1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+   animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .header-text h4 {
+    font-family: poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    animation-name: faded1;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0;
+  }
+  .testPic {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 25%;
+    top: -6%;
+    z-index: 3;
+  }
+  .flexs
+  {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .flexs .fp
+  {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .flexs .fp button , .flexs .fp input
+  {
+    width: 100% !important;
+  }
+  .flexs .fp iframe
+  {
+    position: relative !important;
+    left: 15% !important;
+    width: 70vw !important;
+  }
+  .textChangPos
+  {
+    position: static;
+  }
+}
+.textChangPos
+{
+  position: relative;
+  left: -8%;
+}
+iframe
+{
+  aspect-ratio: 16/9;
+}
+textarea
+{
+  resize: none;
+}
+::-webkit-scrollbar
+{
+  width: 10px;
+}
+::-webkit-scrollbar-track
+{
+  background-color: black;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: teal;
+  position: relative;
+  z-index: 5;
+}
+::-webkit-scrollbar-thumb:hover
+{
+  color: #0f1035;
+}

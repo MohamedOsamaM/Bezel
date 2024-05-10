@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Description" content="This is my description" />
+    <title>Bezel</title>
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--navigation bar-->
+    <nav
+      class="navbar navbar-expand-lg fixed-top border-bottom border-secondary overflow-hidden bg-dark"
+    >
+      <div class="container">
+        <a class="navbar-brand ms-md-5 ps-md-4 position-relative" href="#">
+          <img
+            src="images/logo-light.png"
+            alt="site-logo"
+            class="d-block site-logo"
+          />
+          
+        </a>
+        <button
+          class="navbar-toggler bg-white"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active poppins-font"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link poppins-font ms-md-3" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link poppins-font ms-md-3" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link poppins-font ms-md-3" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link poppins-font ms-md-3" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link poppins-font ms-md-3" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link poppins-font ms-md-3 me-md-5" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <div class="ms-3 borders">
+            <ul class="navbar-nav">
+              <li class="nav-item hovering1">
+                <a class="nav-link" href="#"
+                  ><i class="fa-brands fa-facebook-f p-md-3"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hovering1" href="#"
+                  ><i class="fa-brands fa-twitter p-md-3"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link hovering1" href="#"
+                  ><i class="fa-brands fa-instagram p-md-3"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--navigation bar-->
+    <!--first section-->
+    <header id="home">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide position-relative"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="position-relative vh-100 vw-100">
+              <img src="images/bg-image-28.jpg" class="d-block w-100 h-100" alt="about-1" />
+              <div
+                class="position-absolute start-0 end-0 bottom-0 top-0 bg-black bg-opacity-50"
+              >
+                <div class="w-50 text-center text-white header-text">
+                  <h1>Get Awesome.</h1>
+                  <h4 class="lead my-5">
+                    we are an innovative company making digital stuff.
+                  </h4>
+                  <div class="d-flex flex-row justify-content-center">
+                    <a href="#" class="btn btn-primary px-4 py-3 me-2 hovering2"
+                      >read more</a
+                    >
+                    <a
+                      href="#"
+                      class="btn btn-outline-light py-3 px-4 hovering2"
+                      >contact</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="position-relative vh-100 vw-100">
+              <img src="images/bg-image-29.jpg" class="d-block w-100 h-100" alt="about-1" />
+              <div
+                class="position-absolute start-0 end-0 bottom-0 top-0 bg-black bg-opacity-50"
+              >
+                <div class="w-50 text-center text-white header-text">
+                  <h1>Creat with bezel.</h1>
+                  <h4 class="lead my-5">
+                    we help ambitious companies create new value.
+                  </h4>
+                  <div class="d-flex flex-row justify-content-center">
+                    <a href="#" class="btn btn-primary px-4 py-3 me-2 hovering2"
+                      >read more</a
+                    >
+                    <a
+                      href="#"
+                      class="btn btn-outline-light py-3 px-4 hovering2"
+                      >contact</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-pos d-flex flex-column">
+          <div class="btn-hov position-relative">
+            <button
+              class="btnc z-2 position-relative"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <div class="bg-white layer1 z-1"></div>
+          </div>
+
+          <div class="btn-hov position-relative">
+            <button
+              class="btnc z-2 position-relative"
+              type="button"
+              data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <div class="bg-white layer1 z-1"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--first section-->
+    <!--second section-->
+    <section id="about" class="about my-5 py-5">
+      <div class="container">
+        <div class="w-50 mx-auto text-center">
+          <h6 class="fontFamily_Poppins">who we are ?</h6>
+          <div
+            class="row lead text-secondary fontFamily_SourceSansPro fw-lighter justify-content-center"
+          >
+            <div class="col-md-10">
+              We are an innovative company. We develop and design
+            </div>
+            <div
+              class="textChangPos col-md-2 textChang position-relative text-primary text-center"
+            ></div>
+          </div>
+          <p class="lead text-secondary fontFamily_SourceSansPro fw-lighter">
+            for costumers around the world. Our clients are some of the most
+            forward-looking companies in the world.
+          </p>
+          <a
+            type="button"
+            class="btn btnOutlinesDarks px-4 py-3 my-5 fontFamily_Poppins"
+            href="#"
+            >read more</a
+          >
+        </div>
+      </div>
+    </section>
+    <!--second section-->
+    <!--third section-->
+    <section id="team" class="container py-5 my-5">
+      <div class="w-25 mx-auto fontFamily_Poppins text-center">
+        <div class="fs-1 fw-bolder">
+          Creati<span class="position-relative z-0"
+            >ve
+            <div class="char-op fs1 fw-bolder opacity-25 z-n1">C</div></span
+          >
+          Team
+        </div>
+      </div>
+      <p
+        class="fs-6 lead text-secondary fontFamily_SourceSansPro text-center mb-5"
+      >
+        We are digital thinkers
+      </p>
+      <div class="row">
+        <div class="col-lg-3 p-4">
+          <div class="inner position-relative overflow-hidden hovering3">
+            <img
+              src="images/team-1.jpg"
+              alt="team-memeber-1"
+              class="d-block w-100"
+            />
+            <div
+              class="layer2 p-3 d-flex flex-column justify-content-between bg-primary bg-opacity-75"
+            >
+              <div>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-facebook-f text-white"></i
+                ></a>
+                <a href="# " class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-twitter text-white"></i
+                ></a>
+                <a href="# " class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-linkedin-in text-white"></i
+                ></a>
+              </div>
+              <div>
+                <h6 class="text-white fontFamily_Poppins">Luke Cage</h6>
+                <p class="text-white fontFamily_Poppins fsmalsize">
+                  Founder & CEO
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 p-4">
+          <div class="inner position-relative overflow-hidden hovering3">
+            <img
+              src="images/team-2.jpg"
+              alt="team-memeber-1"
+              class="d-block w-100"
+            />
+            <div
+              class="layer2 p-3 d-flex flex-column justify-content-between bg-primary bg-opacity-75"
+            >
+              <div>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-facebook-f text-white"></i
+                ></a>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-twitter text-white"></i
+                ></a>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-linkedin-in text-white"></i
+                ></a>
+              </div>
+              <div>
+                <h6 class="text-white fontFamily_Poppins">Jessica Jones</h6>
+                <p class="text-white fontFamily_Poppins fsmalsize">
+                  Product Designer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 p-4">
+          <div class="inner position-relative overflow-hidden hovering3">
+            <img
+              src="images/team-3.jpg"
+              alt="team-memeber-1"
+              class="d-block w-100"
+            />
+            <div
+              class="layer2 p-3 d-flex flex-column justify-content-between bg-primary bg-opacity-75"
+            >
+              <div>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-facebook-f text-white"></i
+                ></a>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-twitter text-white"></i
+                ></a>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-linkedin-in text-white"></i
+                ></a>
+              </div>
+              <div>
+                <h6 class="text-white fontFamily_Poppins">Matt Murdock</h6>
+                <p class="text-white fontFamily_Poppins fsmalsize">
+                  Lead Developer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 p-4">
+          <div class="inner position-relative overflow-hidden hovering3">
+            <img
+              src="images/team-4.jpg"
+              alt="team-memeber-1"
+              class="d-block w-100"
+            />
+            <div
+              class="layer2 p-3 d-flex flex-column justify-content-between bg-primary bg-opacity-75"
+            >
+              <div>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-facebook-f text-white"></i
+                ></a>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-twitter text-white"></i
+                ></a>
+                <a href="#" class="text-decoration-none text-white me-2"
+                  ><i class="fa-brands fa-linkedin-in text-white"></i
+                ></a>
+              </div>
+              <div>
+                <h6 class="text-white fontFamily_Poppins">Clair Temple</h6>
+                <p class="text-white fontFamily_Poppins fsmalsize">
+                  Sales Manager
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--third section-->
+    <!--forth section-->
+    <section id="services" class="bg-secondary py-5 my-5">
+      <div class="container p-5">
+        <div class="row">
+          <div class="col-md-2">
+            <div
+              class="inner lead p-3 text-white fw-bolder fontFamily_Poppins fsmalsize text-center"
+            >
+              STUNNING DESIGN
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div
+              class="inner lead p-3 text-white fw-bolder fontFamily_Poppins fsmalsize text-center"
+            >
+              TIME SAVER
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div
+              class="inner lead p-3 text-white fw-bolder fontFamily_Poppins fsmalsize text-center"
+            >
+              CLEAN CODE
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div
+              class="inner lead p-3 text-white fw-bolder fontFamily_Poppins fsmalsize text-center"
+            >
+              CUSTOMIZABLE
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div
+              class="inner lead p-3 text-white fw-bolder fontFamily_Poppins fsmalsize text-center"
+            >
+              PERFECT LAYOUT
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div
+              class="inner lead p-3 text-white fw-bolder fontFamily_Poppins fsmalsize text-center"
+            >
+              RETINA READY
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="inner p-5">
+              <h2 class="text-white fontFamily_Poppins fw-bolder mb-5">
+                <span class="position-relative z-0"
+                  >w
+                  <div class="char-op2 fs1 fw-bolder opacity-25 z-n1">
+                    w
+                  </div></span
+                >hat We Do.
+              </h2>
+              <p class="lead text-white fs-6 fw-bolde fontFamily_SourceSansPro">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam
+                quibusdam repellat vero, recusandae excepturi dignissimos velit
+                et alias amet, quia facilis perferendis.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="inner p-5 d-flex flex-column justify-content-between">
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Research</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Opportunity
+                Analysis</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i>
+                Consulting</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Brand
+                Planning</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Customer
+                Support</span
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="inner p-5 d-flex flex-column justify-content-between">
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Logo &
+                Branding</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Style
+                Guides</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Motion
+                Graphics</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i>
+                UX/UI-design</span
+              >
+              <span class="fontFamily_SourceSansPro fs-6 text-white mb-3"
+                ><i class="fa-regular fa-circle-check me-1"></i> Social media
+                design</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--forth section-->
+    <section id="works" class="py-5 my-5">
+      <div class="container p-5">
+        <h2 class="fw-bolder fontFamily_Poppins text-center fbigsize">
+          Chea<span class="position-relative z-0"
+            >p
+            <div class="char-op3 fs1 fw-bolder opacity-25 z-n1">C</div></span
+          >
+          Prices
+        </h2>
+        <p
+          class="lead text-secondary text-center fontFamily_SourceSansPro fs-6 mb-5"
+        >
+          We provide the best quality.
+        </p>
+        <div class="row align-items-md-center">
+          <div class="col-md-3 mb-3">
+            <div
+              class="inner p-5 py-0 shadow d-flex flex-column align-items-start hovering4"
+            >
+              <h4 class="fsmalsize fontFamily_Poppins me-5 mt-3">Starter</h4>
+              <h2
+                class="d-flex flex-row justify-content-start h1 me-5 priceNum"
+              >
+                <span class="fs-6">$</span>9
+              </h2>
+              <hr class="w-100" />
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Connections</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >24/7 Support</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Full SSL Protection</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Channels</span
+              >
+              <a
+                href="#"
+                type="button"
+                class="btn btn-primarys my-3 me-5 fsmalsize fw-bolder py-2 px-3 hovering2"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div
+              class="inner p-5 py-0 shadow d-flex flex-column align-items-start hovering4"
+            >
+              <h4 class="fsmalsize fontFamily_Poppins me-5 mt-3">Silver</h4>
+              <h2
+                class="d-flex flex-row justify-content-start h1 me-5 priceNum"
+              >
+                <span class="fs-6">$</span>19
+              </h2>
+              <hr class="w-100" />
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Connections</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >24/7 Support</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Full SSL Protection</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Channels</span
+              >
+              <a
+                href="#"
+                type="button"
+                class="btn btn-primarys my-3 me-5 fsmalsize fw-bolder py-2 px-3 hovering2"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div
+              class="inner p-5 shadow d-flex flex-column align-items-start hovering4"
+            >
+              <h4
+                class="fsmalsize fontFamily_Poppins me-5 mt-3 d-flex flex-row justify-content-between align-items-center"
+              >
+                <span class="me-5 pe-5">Gold</span
+                ><span class="badge rounded-pill text-bg-primary p-2"
+                  >best value</span
+                >
+              </h4>
+              <h2
+                class="d-flex flex-row justify-content-start h1 me-5 priceNum text-info"
+              >
+                <span class="fs-6">$</span>29
+              </h2>
+              <hr class="w-100" />
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Connections</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >24/7 Support</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Full SSL Protection</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Channels</span
+              >
+              <a
+                href="#"
+                type="button"
+                class="btn btn-primarys my-3 me-5 fsmalsize fw-bolder py-2 px-3 hovering2"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="inner p-5 py-0 shadow d-flex flex-column align-items-start hovering4"
+            >
+              <h4 class="fsmalsize fontFamily_Poppins me-5 mt-3">Platinum</h4>
+              <h2
+                class="d-flex flex-row justify-content-start h1 me-5 priceNum"
+              >
+                <span class="fs-6">$</span>49
+              </h2>
+              <hr class="w-100" />
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Connections</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >24/7 Support</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Full SSL Protection</span
+              >
+              <span class="text-secondary fontFamily_SourceSansPro fs-6 my-2"
+                >Unlimited Channels</span
+              >
+              <a
+                href="#"
+                type="button"
+                class="btn btn-primarys my-3 me-5 fsmalsize fw-bolder py-2 px-3 hovering2"
+                >Sign Up</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--forth section-->
+    <!--fifth section-->
+    <section id="pricing" class="p-5 my-5">
+      <div class="container">
+        <h6 class="fontFamily_Poppins my-5 text-center fsmalsize">
+          HAPPY CUSTOMERS
+        </h6>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide position-relative"
+        >
+          <div class="carousel-indicators indic-box d-flex align-items-center">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="text-primary active rounded-circle w-25 h-25"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+              class="text-primary rounded-circle w-25 h-25"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="p-5">
+                <div class="w-75 mx-auto shadow position-relative p-5">
+                  <img
+                    src="images/testimonial-1.jpg"
+                    class="d-block rounded-circle testPic"
+                    alt="testimonial-1"
+                  />
+                  <h4 class="fontFamily_Poppins fw-bolder text-center my-3">
+                    Marissa Mayer
+                  </h4>
+                  <h6
+                    class="fontFamily_Poppins text-body-tertiary text-center fsmalsize my-3"
+                  >
+                    CEO , YAHOO
+                  </h6>
+                  <p class="lead text-secondary my-3 text-center fs-6 fontFamily_SourceSansPro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet eum natus excepturi debitis doloribus. Enim officiis
+                    commodi vitae laborum vero necessitatibus soluta?
+                    Repellendus pariatur quis nesciunt error sequi maiores
+                    beatae.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="p-5">
+                <div class="w-75 mx-auto shadow position-relative p-5">
+                  <img
+                    src="images/testimonial-2.jpg"
+                    class="d-block rounded-circle testPic"
+                    alt="testimonial-1"
+                  />
+                  <h4 class="fontFamily_Poppins fw-bolder text-center my-3">
+                    Mark Zucherburg
+                  </h4>
+                  <h6
+                    class="fontFamily_Poppins text-body-tertiary text-center fsmalsize my-3"
+                  >
+                    FOUNDER & CEO , FACEBOOK
+                  </h6>
+                  <p class="lead text-secondary my-3 text-center fs-6 fontFamily_SourceSansPro">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet eum natus excepturi debitis doloribus. Enim officiis
+                    commodi vitae laborum vero necessitatibus soluta?
+                    Repellendus pariatur quis nesciunt error sequi maiores
+                    beatae.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev but-hov1"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <i
+              class="fa-sharp fa-solid fa-arrow-left fa-flip-vertical fa-2xl"
+            ></i>
+          </button>
+          <button
+            class="carousel-control-next but-hov2"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <i
+              class="fa-sharp fa-solid fa-arrow-right fa-flip-vertical fa-2xl"
+            ></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--fifth section-->
+    <!--sixth section-->
+    <footer id="contact" class="mt-5">
+      <div class="d-flex flex-row flexs">
+        <div class="fp w-50">
+          <iframe
+            class="w-100 h-100"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.638444775048!2d31.255423575007228!3d29.961076722516907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584782ead906cd%3A0x6feb36b41789dfff!2sRoute%20academy!5e0!3m2!1sen!2seg!4v1708193558365!5m2!1sen!2seg"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="fp w-50 p-5">
+          <div class="inner">
+              <form novalidate method="post" action="#">
+                <div class="d-flex flex-column">
+                  <h2 class="fontFamily_Poppins fbigsize fw-bolder mb-5"><span class="position-relative z-0">G<div class="char-op3 fs1 fw-bolder opacity-25 z-n1">G</div></span>et In Touch</h2>
+                  <h4 class="lead text-secondary mb-5 fs-6 fontFamily_SourceSansPro">Let's work to gether.</h4>
+                  <label for="userName" class="fontFamily_Poppins fsmalsize mb-2">Your Name</label>
+                  <input id="userName" type="text" class="border mb-4 p-3" name="userName">
+                  <label for="userEmail" class="fontFamily_Poppins fsmalsize mb-2">Your Email</label>
+                  <input id="userEmail" type="email" class="border mb-4 p-3" name="userEmail">
+                  <label for="userPhoneNum" class="fontFamily_Poppins fsmalsize mb-2">Your Email</label>
+                  <input id="userPhoneNum" type="tel" class="border mb-4 p-3" name="userPhoneNum">
+                  <label for="userMessage" class="fontFamily_Poppins fsmalsize mb-2">Your Message</label>
+                  <textarea class="mb-4 p-3" name="userMessage" id="userMessage" cols="30" rows="10"></textarea>
+                  <button type="submit" class="btn btn-info text-white fontFamily_Poppins fsmalsize fw-bolder w-25 px-2 py-3 hovering2">Send Message</button>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+      </div>
+      
+    </footer>
+    <!--sixth section-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
